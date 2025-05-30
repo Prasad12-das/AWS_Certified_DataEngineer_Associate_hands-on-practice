@@ -25,15 +25,4 @@ Upload source data into the rawData folder maintaining folder structure of custo
 
 The S3 bucket should have the follow structure once set up;
 
-└── S3-Bucket-Name
-    ├── athena
-    ├── processedData
-    ├── rawData
-    │   ├── customers 
-    │   │   └──  customers.csv 
-    │   ├── employees 
-    │   │   └──  employees.csv 
-    │   └── orders
-    │       └── orders.csv 
-    ├── scriptLocation    
-    └──  tmpDir
+<img width="781" alt="image" src="https://github.com/user-attachments/assets/a2090406-6fa6-4e05-a26c-159059419fd1" />
