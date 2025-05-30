@@ -14,6 +14,7 @@ The following artefacts are created by the code;
 - Security Groups
 - Routing Table
 - S3 Bucket
+  
 After the code has been executed the following steps need to be executed on the console.
 
 1. Create a rawData data folder in the S3 bucket.
@@ -21,7 +22,7 @@ After the code has been executed the following steps need to be executed on the 
 3. Create a scriptLocation folder in the S3 bucket.
 4. Create a tmpDir folder in the S3 bucket.
 5. Create a athena folder in the S3 bucket.
-Upload source data into the rawData folder maintaining folder structure of customers, employees, and orders, .
+6. Upload source data into the rawData folder maintaining folder structure of customers, employees, and orders, .
 
 The S3 bucket should have the follow structure once set up;
 
